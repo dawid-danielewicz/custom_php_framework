@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+nav {
+    background-color: #2ecc71;
+    color: #fff;
+    font-weight: bold;
+}
+.nav {
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav a {
+    color: #fff;
+    padding: 10px;
+}
+
+nav a:hover {
+    background-color: #27ae60;
+}
+
+.active {
+    background-color: #27ae60;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+}
+
+.menu ul {
+    display: flex;
+}
+
+.menu ul li {
+    list-style: none;
+    margin-right: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+
+.text-center {
+    text-align: center;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ecf0f1;
+    border-radius: 10px;
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+}
+
+.form-input {
+    width: 80%;
+    margin-bottom: 20px;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+}
+
+.button {
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: #2ecc71;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #27ae60;
+}
